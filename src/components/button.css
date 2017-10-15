@@ -1,0 +1,22 @@
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: 2px #444 solid;
+    background: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: helvetica, Arial, sans-serif;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background: #444;
+    color: #fff;
+}
+
+.btn-large {
+    padding: 12px 25px;
+    font-size: 17px;
+}

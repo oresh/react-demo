@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+.section {
+  padding: 220px 0;
+  text-align: center;
+}
+
+.header {
+  padding: 120px 10px;
+  background: #f0f0f0;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.timer-section {
+  background: #0e7dd3;
+  color: #fff;
+}
+
+.button-section {
+  background: #40eb70;
+}
+
+.menu-section {
+  background: #ebebc2;
+  border-bottom: 3px #000 dashed;
+}
+
+.nav,
+.nav li {
+  list-style: none;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  border-radius: 5px;
+  padding: 8px 14px;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+}
+.nav li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.hidden-section {
+  background: #a3c16f;
+}
+
+.black-box {
+  display: block;
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px #000 solid;
+  margin: 0 auto 20px;
+}
+
+.bunny {
+  font-size: 50px;
+  font-weight: bold;
+}
+.blue {
+  color: #0f7ecc;
+}
+
+.thanks-section {
+  background: url("bg.png") no-repeat center center;
+  background-size: cover;
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 2px 2px 1px #000;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
